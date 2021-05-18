@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8748AEF240B77DA00EE8F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748AEE240B77DA00EE8F65 /* AppDelegate.swift */; };
+		F8748AF1240B77DA00EE8F65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748AF0240B77DA00EE8F65 /* SceneDelegate.swift */; };
+		F8748AF3240B77DA00EE8F65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748AF2240B77DA00EE8F65 /* ContentView.swift */; };
+		F8748AF5240B77DB00EE8F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8748AF4240B77DB00EE8F65 /* Assets.xcassets */; };
+		F8748AF8240B77DB00EE8F65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8748AF7240B77DB00EE8F65 /* Preview Assets.xcassets */; };
+		F8748AFB240B77DB00EE8F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8748AF9240B77DB00EE8F65 /* LaunchScreen.storyboard */; };
+		F8748B04240B781600EE8F65 /* ScanFocusRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B03240B781600EE8F65 /* ScanFocusRegion.swift */; };
+		F8748B06240B782900EE8F65 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B05240B782900EE8F65 /* WebView.swift */; };
+		F8748B08240B784200EE8F65 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B07240B784200EE8F65 /* ScannerViewController.swift */; };
+		F8748B0A240B785B00EE8F65 /* BarcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B09240B785B00EE8F65 /* BarcodeScanner.swift */; };
+		F8748B0C240B786E00EE8F65 /* FlashlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B0B240B786E00EE8F65 /* FlashlightButton.swift */; };
+		F8748B0E240B788000EE8F65 /* GetImageFromUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B0D240B788000EE8F65 /* GetImageFromUrl.swift */; };
+		F8748B11240B789E00EE8F65 /* FoodStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B10240B789E00EE8F65 /* FoodStruct.swift */; };
+		F8748B13240B78B400EE8F65 /* NutritionxApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B12240B78B400EE8F65 /* NutritionxApiData.swift */; };
+		F8748B15240B78C500EE8F65 /* ScanFoodBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B14240B78C500EE8F65 /* ScanFoodBarcode.swift */; };
+		F8748B17240B78D600EE8F65 /* EnterFoodBarcodeUPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B16240B78D600EE8F65 /* EnterFoodBarcodeUPC.swift */; };
+		F8748B1B240B790300EE8F65 /* ScanQRBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B1A240B790300EE8F65 /* ScanQRBarcode.swift */; };
+		F8748B1D240B7A9300EE8F65 /* FoodNutritionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8748B1C240B7A9300EE8F65 /* FoodNutritionDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8748AEB240B77DA00EE8F65 /* BarcodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8748AEE240B77DA00EE8F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8748AF0240B77DA00EE8F65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8748AF2240B77DA00EE8F65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8748AF4240B77DB00EE8F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8748AF7240B77DB00EE8F65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8748AFA240B77DB00EE8F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8748AFC240B77DB00EE8F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8748B03240B781600EE8F65 /* ScanFocusRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanFocusRegion.swift; sourceTree = "<group>"; };
+		F8748B05240B782900EE8F65 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F8748B07240B784200EE8F65 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		F8748B09240B785B00EE8F65 /* BarcodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanner.swift; sourceTree = "<group>"; };
+		F8748B0B240B786E00EE8F65 /* FlashlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightButton.swift; sourceTree = "<group>"; };
+		F8748B0D240B788000EE8F65 /* GetImageFromUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageFromUrl.swift; sourceTree = "<group>"; };
+		F8748B10240B789E00EE8F65 /* FoodStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStruct.swift; sourceTree = "<group>"; };
+		F8748B12240B78B400EE8F65 /* NutritionxApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionxApiData.swift; sourceTree = "<group>"; };
+		F8748B14240B78C500EE8F65 /* ScanFoodBarcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanFoodBarcode.swift; sourceTree = "<group>"; };
+		F8748B16240B78D600EE8F65 /* EnterFoodBarcodeUPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterFoodBarcodeUPC.swift; sourceTree = "<group>"; };
+		F8748B1A240B790300EE8F65 /* ScanQRBarcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRBarcode.swift; sourceTree = "<group>"; };
+		F8748B1C240B7A9300EE8F65 /* FoodNutritionDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNutritionDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8748AE8240B77DA00EE8F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8748AE2240B77DA00EE8F65 = {
+			isa = PBXGroup;
+			children = (
+				F8748AED240B77DA00EE8F65 /* BarcodeScanner */,
+				F8748AEC240B77DA00EE8F65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8748AEC240B77DA00EE8F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8748AEB240B77DA00EE8F65 /* BarcodeScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8748AED240B77DA00EE8F65 /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				F8748B02240B77EE00EE8F65 /* Delegates */,
+				F8748AF2240B77DA00EE8F65 /* ContentView.swift */,
+				F8748B03240B781600EE8F65 /* ScanFocusRegion.swift */,
+				F8748B05240B782900EE8F65 /* WebView.swift */,
+				F8748B07240B784200EE8F65 /* ScannerViewController.swift */,
+				F8748B09240B785B00EE8F65 /* BarcodeScanner.swift */,
+				F8748B0B240B786E00EE8F65 /* FlashlightButton.swift */,
+				F8748B0D240B788000EE8F65 /* GetImageFromUrl.swift */,
+				F8748B0F240B788B00EE8F65 /* Food Barcode */,
+				F8748B19240B78E900EE8F65 /* QR Barcode */,
+				F8748AF4240B77DB00EE8F65 /* Assets.xcassets */,
+				F8748AF9240B77DB00EE8F65 /* LaunchScreen.storyboard */,
+				F8748AFC240B77DB00EE8F65 /* Info.plist */,
+				F8748AF6240B77DB00EE8F65 /* Preview Content */,
+			);
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+		F8748AF6240B77DB00EE8F65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8748AF7240B77DB00EE8F65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8748B02240B77EE00EE8F65 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				F8748AEE240B77DA00EE8F65 /* AppDelegate.swift */,
+				F8748AF0240B77DA00EE8F65 /* SceneDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		F8748B0F240B788B00EE8F65 /* Food Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				F8748B10240B789E00EE8F65 /* FoodStruct.swift */,
+				F8748B12240B78B400EE8F65 /* NutritionxApiData.swift */,
+				F8748B14240B78C500EE8F65 /* ScanFoodBarcode.swift */,
+				F8748B1C240B7A9300EE8F65 /* FoodNutritionDetails.swift */,
+				F8748B16240B78D600EE8F65 /* EnterFoodBarcodeUPC.swift */,
+			);
+			name = "Food Barcode";
+			sourceTree = "<group>";
+		};
+		F8748B19240B78E900EE8F65 /* QR Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				F8748B1A240B790300EE8F65 /* ScanQRBarcode.swift */,
+			);
+			name = "QR Barcode";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8748AEA240B77DA00EE8F65 /* BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8748AFF240B77DB00EE8F65 /* Build configuration list for PBXNativeTarget "BarcodeScanner" */;
+			buildPhases = (
+				F8748AE7240B77DA00EE8F65 /* Sources */,
+				F8748AE8240B77DA00EE8F65 /* Frameworks */,
+				F8748AE9240B77DA00EE8F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarcodeScanner;
+			productName = BarcodeScanner;
+			productReference = F8748AEB240B77DA00EE8F65 /* BarcodeScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8748AE3240B77DA00EE8F65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = AhmadMalik;
+				TargetAttributes = {
+					F8748AEA240B77DA00EE8F65 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F8748AE6240B77DA00EE8F65 /* Build configuration list for PBXProject "BarcodeScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8748AE2240B77DA00EE8F65;
+			productRefGroup = F8748AEC240B77DA00EE8F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8748AEA240B77DA00EE8F65 /* BarcodeScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8748AE9240B77DA00EE8F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8748AFB240B77DB00EE8F65 /* LaunchScreen.storyboard in Resources */,
+				F8748AF8240B77DB00EE8F65 /* Preview Assets.xcassets in Resources */,
+				F8748AF5240B77DB00EE8F65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8748AE7240B77DA00EE8F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8748AEF240B77DA00EE8F65 /* AppDelegate.swift in Sources */,
+				F8748B0A240B785B00EE8F65 /* BarcodeScanner.swift in Sources */,
+				F8748B08240B784200EE8F65 /* ScannerViewController.swift in Sources */,
+				F8748B0C240B786E00EE8F65 /* FlashlightButton.swift in Sources */,
+				F8748B11240B789E00EE8F65 /* FoodStruct.swift in Sources */,
+				F8748B06240B782900EE8F65 /* WebView.swift in Sources */,
+				F8748B04240B781600EE8F65 /* ScanFocusRegion.swift in Sources */,
+				F8748B1D240B7A9300EE8F65 /* FoodNutritionDetails.swift in Sources */,
+				F8748B0E240B788000EE8F65 /* GetImageFromUrl.swift in Sources */,
+				F8748B13240B78B400EE8F65 /* NutritionxApiData.swift in Sources */,
+				F8748B17240B78D600EE8F65 /* EnterFoodBarcodeUPC.swift in Sources */,
+				F8748B1B240B790300EE8F65 /* ScanQRBarcode.swift in Sources */,
+				F8748B15240B78C500EE8F65 /* ScanFoodBarcode.swift in Sources */,
+				F8748AF1240B77DA00EE8F65 /* SceneDelegate.swift in Sources */,
+				F8748AF3240B77DA00EE8F65 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8748AF9240B77DB00EE8F65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8748AFA240B77DB00EE8F65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8748AFD240B77DB00EE8F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8748AFE240B77DB00EE8F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8748B00240B77DB00EE8F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BarcodeScanner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BarcodeScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmadMalik.BarcodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8748B01240B77DB00EE8F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BarcodeScanner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BarcodeScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmadMalik.BarcodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8748AE6240B77DA00EE8F65 /* Build configuration list for PBXProject "BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8748AFD240B77DB00EE8F65 /* Debug */,
+				F8748AFE240B77DB00EE8F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8748AFF240B77DB00EE8F65 /* Build configuration list for PBXNativeTarget "BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8748B00240B77DB00EE8F65 /* Debug */,
+				F8748B01240B77DB00EE8F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8748AE3240B77DA00EE8F65 /* Project object */;
+}
